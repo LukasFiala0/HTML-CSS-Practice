@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(114, 114, 114);
+}
+
+ul {
+    list-style-type: none;
+    margin: -8px -8px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #acb8f8;
+    border-style: solid;
+    border-color: rgb(90, 99, 233);
+}
+
+li {
+    float: left;
+  }
+
+a {
+    display: block;
+    color: rgb(7, 0, 102);
+    text-align: center;
+    padding: 20px 23px;
+    text-decoration: none;
+    border-right-style: solid;
+    border-color: rgb(236, 82, 82);
+    border-width: 3px;
+    font-family: Verdana;
+    font-weight: 900;
+    color: black;
+}
+
+a:hover {
+    background-color: rgba(175, 156, 192, 0.514) ;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 450px;
+
+  }
+
+.form-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px rgb(236, 35, 35);
+    width: 500px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.form-group input,
+.form-group select,
+.form-group button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 90%;
+}
+
+.form-group button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+
+legend {
+    font-family: Arial;
+    font-size: larger;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.radio-group input {
+    width: auto;
+    margin: 5px
+}
